@@ -13,15 +13,15 @@ def open_site(context):
 def use_commad(context):
     time.sleep(2)
     challenge.enter_form()
-    time.sleep(1)
+    time.sleep(2)
     challenge.typing_first_name()
-    time.sleep(1)
+    time.sleep(2)
     challenge.typing_email()
-    time.sleep(1)
+    time.sleep(2)
     challenge.page_down()
-    time.sleep(1)
+    time.sleep(2)
     challenge.data_send()
-    time.sleep(1)
+    time.sleep(2)
 
 @then('required fields sent successfully')
 def validated_send(context):
